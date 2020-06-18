@@ -8,4 +8,10 @@
 <br>
 # 使用教學
 <br>
-<br>
+<br>1.在CMD執行```git clone https://github.com/tzutalin/labelImg.git```
+<br>2.使用window+Anaconda執行以下命令
+<br>  ```activate <環境名稱>
+<br>  cd <labelImg目標資料夾>
+<br>  conda install pyqt=5
+<br>  pyrcc5 -o libs/resources.py resources.qrc```
+<br>3.在目標資料夾執行:```python labelImg.py```
