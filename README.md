@@ -16,11 +16,11 @@
 <br>3.在目標資料夾執行:```python labelImg.py```
 # 使用方法
 <br>打開labelImg ，並點選「Open」開啟圖檔
-<br>![step1](picture or gif url)
+<br>![step1](https://github.com/yuyangdanny/labeling-tool/blob/master/images/open.PNG)
 <br>對著圖片按滑鼠右鍵(或是案快捷鍵W)，開始標註
-<br>![step2](picture or gif url)
+<br>![step2](https://github.com/yuyangdanny/labeling-tool/blob/master/images/labeling.PNG)
 <br>並將所有的句子標註，只要是中文字就標記成”text”
-<br>![step3](picture or gif url)
+<br>![step3](https://github.com/yuyangdanny/labeling-tool/blob/master/images/text.PNG)
 <br>將照片的標註儲存在同一個資料內
-<br>![step4](picture or gif url)
+<br>![step4](https://github.com/yuyangdanny/labeling-tool/blob/master/images/xml.PNG)
 <br>LabelImg保存一個.xml文件，其中包含每個圖像的標籤數據。這些.xml文件將用於生成TFRecords，可用於訓練圖像。
